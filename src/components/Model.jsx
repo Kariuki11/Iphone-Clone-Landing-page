@@ -4,6 +4,8 @@ import ModelView from "./ModelView"
 import { useState } from "react"
 import { yellowImg } from "../utils"
 
+import * as THREE from 'three'
+
 const Model = () => {
     const [size, setSize] = useState('small');
     const [model, setModel] = useState({
@@ -16,6 +18,14 @@ const Model = () => {
 
     const cameraControlSmall = useRef();
     const cameraControlLarge = useRef();
+
+    //Model
+    const small = useRef(new THREE.Group());
+    const large = useRef(new THREE.Group());
+
+    //Rotation
+    const [smallRotation, setSmallRotation] = useState(0);
+    const [largeRotation, setLargeRotation] = useState(0);
 
     useGSAP(() => {
         gsap.to('#heading', { y: 0, opacity: 1 })
