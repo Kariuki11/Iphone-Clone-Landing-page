@@ -32,7 +32,7 @@ import {
     {
       id: 3,
       textLists: [
-        "iPhone 15 Pro Max has the",
+        "iPhone 16 Pro Max has the",
         "longest optical zoom in",
         "iPhone ever. Far out.",
       ],
@@ -50,7 +50,7 @@ import {
   export const models = [
     {
       id: 1,
-      title: "iPhone 15 Pro in Natural Titanium",
+      title: "iPhone 16 Pro in Natural Titanium",
       color: ["#8F8A81", "#ffe7b9", "#6f6c64"],
       img: yellowImg,
     },
