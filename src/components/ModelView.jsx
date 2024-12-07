@@ -28,3 +28,8 @@ const ModelView = ({ index, groupRef, gsapType, controlRef, setRotationSize, siz
 }
 
 export default ModelView
+
+
+// 2hrs 28 minutes 48 seconds
+
+// The page is broken. The model is not showing up. The error is in the console. The error is: "Error: Could not find a GLTF model in the provided gltf file." The error is in the ModelView.jsx file. The error is in the IPhone component
